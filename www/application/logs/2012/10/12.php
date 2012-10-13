@@ -596,3 +596,13 @@
 --
 #0 Z:\home\molod-lem.org\www\index.php(109): Kohana_Request->execute()
 #1 {main}
+2012-10-12 20:24:02 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: img/templatemo_content.png ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-12 20:24:02 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: img/templatemo_content.png ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 Z:\home\molod-lem.org\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-10-12 20:24:02 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-10-12 20:24:02 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 Z:\home\molod-lem.org\www\index.php(109): Kohana_Request->execute()
+#1 {main}
