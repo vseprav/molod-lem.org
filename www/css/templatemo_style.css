@@ -245,7 +245,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 
 #contact_form { padding: 0; width: 400px }
 #contact_form form { margin: 0px; padding: 0px; }
-#contact_form form .input_field { width: 388px; color: #333; padding: 5px; border: 1px solid #ccc;  background: #fff; }
+#contact_form form .input_field { width: 188px; color: #333; padding: 5px; border: 1px solid #ccc;  background: #fff; }
 
 #contact_form form label { display: block; width: 100px; margin-top: 15px; margin-bottom: 5px; font-size: 14px; color: #000; }
 #contact_form form textarea { width: 388px; height: 200px; padding: 5px; color: #333; border: 1px solid #ccc;  background: #fff; }

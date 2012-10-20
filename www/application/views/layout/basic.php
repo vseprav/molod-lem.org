@@ -3,23 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Молода Лемківщина</title>
-<link href="../css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="/css/templatemo_style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="templatemo_body_wrapper">
     <div id="templatemo_wrapper">
         <div id="templatemo_header">
-            <div id="search_box">
-                <form action="#" method="get">
-                    <input type="text" value="Search" name="q" size="10" id="searchfield" title="searchfield" />
-                </form>
-            </div>
-
         </div> <!-- end of templatemo header -->
-
+        <?php if (Auth::instance()->get_user()!== null) echo "<a href='/user/logout'>Вийти</a>";?>
         <div id="templatemo_menu">
             <ul>
-                <li><a href class="current">Товариство</a></li>
+                <li><a href="/" class="current">Товариство</a></li>
                 <li><a href >Секції</a></li>
                 <li><a href >Документація</a></li>
             </ul>    	

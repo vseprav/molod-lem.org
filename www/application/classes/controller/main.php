@@ -1,13 +1,12 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-class Controller_Main extends Controller_Template {
+class Controller_Main extends Applicationcontroller {
     
-    public $template = 'basic';
+   public $template = 'layout/basic';
 
-    public function action_index()
+   public function action_index()
 	{
-            $data["message"] = "hello";
-            $this->template->content = View::factory('home',$data);
+    	$this->template->content = View::factory('home');
 	}
 
-} // End Welcome
+} // End
