@@ -36,7 +36,7 @@ class Controller_User extends Controller_Template {
   public function action_logout()
   {
     Auth::instance()->logout();
-    Request::initial()->redirect('user/index');
+    Request::initial()->redirect('user');
 
   }
 

@@ -10,12 +10,12 @@
     <div id="templatemo_wrapper">
         <div id="templatemo_header">
         </div> <!-- end of templatemo header -->
-        <?php if (Auth::instance()->get_user()!== null) echo "<a href='/user/logout'>Вийти</a>";?>
         <div id="templatemo_menu">
             <ul>
                 <li><a href="/" class="current">Товариство</a></li>
                 <li><a href >Секції</a></li>
                 <li><a href >Документація</a></li>
+                <?php if (Auth::instance()->get_user()!== null) echo "<li><a href='/user/logout'>Вийти</a></li>";?>
             </ul>    	
         </div> <!-- end of templatemo_menu -->
         <div id="templatemo_main">
