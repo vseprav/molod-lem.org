@@ -6,7 +6,13 @@ class Controller_Tovarystvo extends Applicationcontroller {
 
    public function action_index()
 	{
-    	$this->template->content = View::factory('home');
+    	$this->template->content = View::factory('tovarystvo/index');
 	}
+	
+	public function action_new()
+	{
+    	$this->template->content = View::factory('tovarystvo/new');
+	}
+	
 
 } // End
